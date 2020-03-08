@@ -3,10 +3,10 @@
 <%= form_tag new_coupon_path %> 
 
   <label> Coupon Code: </label><br>
-    <%= text_field_tag :'[coupon][coupon_code]' %> 
+    <%= text_field_tag :[coupon][coupon_code] %> 
   
   <label> Store: </label><br> 
-    <%= text_field_tag :'[coupon][store]' %> 
+    <%= text_field_tag :[coupon][store] %> 
   
 
   <%= submit_tag "Submit Coupon" %> 
